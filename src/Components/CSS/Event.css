@@ -1,0 +1,140 @@
+.eventC {
+    box-shadow: 0px 0px 50px #132f4b;
+    padding-bottom: 4rem;
+}
+
+.bannerEvent {
+    height: 40vh;
+    background: fixed;
+    background-size: cover;
+    width: 100%;
+    filter: saturate(0.6);
+    background-position-y: -20vh !important;
+}
+
+.eventPicC {
+    height: 40vh;
+    margin: -0rem -10rem;
+}
+
+.insideEventCover {
+    height: 40vh;
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+}
+
+.eventText {
+    margin: 2rem 10rem;
+}
+
+.eventDate {
+    display: flex;
+    align-items: center;
+    float: right;
+    color: #132f4b;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.dateI {
+    height: 2rem;
+}
+
+.eventH {
+    text-align: center;
+    text-shadow: -3px -3px 0 #132f4b, 3px -3px 0 #132f4b, -3px 3px 0 #132f4b, 3px 3px 0 #132f4b;
+    color: white;
+    font-size: 7rem;
+    font-family: cursive;
+}
+
+.eventAbout {
+    padding: 2.5rem 0 0 0;
+}
+
+.eventAboutHC {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.eventAboutHH {
+    font-weight: bolder;
+    color: #132f4b;
+    font-size: 4rem;
+}
+
+.eventColumn {
+    width: 100%;
+    display: flex;
+}
+
+.eventP {
+    width: 70%;
+    padding-right: 2rem;
+}
+
+.eventPhotos {
+    width: 30%;
+    text-align: right;
+}
+
+.eventPhoto {
+    width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 10%;
+    box-shadow: 0px 0px 10px #132f4b;
+    -webkit-transition: box-shadow 0.8s;
+    transition: box-shadow 0.5s;
+}
+
+.eventPhoto:hover {
+    box-shadow: 0px 0px 30px #132f4b;
+    -webkit-transition: box-shadow 0.8s;
+    transition: box-shadow 0.5s;
+}
+
+@media only screen and (max-width: 875px) {
+    .eventPicC {
+        margin: -0rem -1rem;
+    }
+    .eventDate {
+        font-size: 1rem;
+    }
+    .dateI {
+        height: 1.5rem;
+    }
+    .eventText {
+        margin: 1rem 1rem;
+    }
+    .eventH {
+        font-size: 3rem;
+        padding: 0 0.3rem;
+    }
+    .eventColumn {
+        display: inline;
+    }
+    .eventP {
+        width: 100%;
+        padding-right: 0;
+    }
+    .eventPhotos {
+        width: 100%;
+        text-align: center;
+    }
+    .eventPhoto {
+        margin-bottom: 2rem;
+    }
+    .eventC {
+        padding-bottom: 0;
+    }
+    .eventAboutHH {
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .eventAboutHH {
+        font-size: 1.8rem;
+    }
+}

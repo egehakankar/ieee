@@ -1,0 +1,9 @@
+.bodyHome {
+    margin: .0rem 10rem;
+}
+
+@media only screen and (max-width: 875px) {
+    .bodyHome {
+        margin: .0rem 1rem;
+    }
+}

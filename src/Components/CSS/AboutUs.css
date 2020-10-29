@@ -1,0 +1,95 @@
+.aboutUsC {
+    box-shadow: 0px 0px 50px #132f4b;
+    padding-bottom: 4rem;
+}
+
+.bannerAbout {
+    height: 40vh;
+    background: fixed;
+    background-size: cover;
+    width: 100%;
+    filter: saturate(0.5);
+}
+
+.aboutPicC {
+    height: 40vh;
+    margin: -0rem -10rem;
+}
+
+.aboutUsText {
+    margin: 0rem 10rem;
+}
+
+.insideAboutCover {
+    height: 40vh;
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+}
+
+.aboutUsH {
+    text-align: center;
+}
+
+.aboutIEEE {
+    padding: 2.5rem 0 0 0;
+}
+
+.aboutIEEEHC {
+    text-align: center;
+}
+
+.aboutIEEEH {
+    font-weight: bolder;
+    color: #132f4b;
+    font-size: 4rem;
+}
+
+.aboutwhyIEEE {
+    margin: 1rem 0 0 0;
+}
+
+.aboutwhyIEEEHC {
+    text-align: center;
+}
+
+.aboutwhyIEEEH {
+    color: #132f4b;
+}
+
+.whyPar {
+    margin-top: 1rem !important;
+    margin-bottom: 0 !important;
+}
+
+.counter {
+    display: contents;
+}
+
+@media only screen and (max-width: 875px) {
+    .aboutPicC {
+        margin: -0rem -1rem;
+    }
+    .aboutUsL {
+        height: 8rem;
+    }
+    .aboutUsText {
+        margin: 0rem 1rem;
+    }
+    .aboutIEEE {
+        padding: 1rem 0 0 0;
+    }
+    .aboutIEEEH {
+        font-size: 2.5rem;
+    }
+    .aboutwhyIEEEH {
+        font-size: 2rem;
+        color: #132f4b;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .aboutUsL {
+        height: 6rem;
+    }
+}
