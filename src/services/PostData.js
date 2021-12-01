@@ -1,5 +1,5 @@
 export function PostData(type) {
-    let BaseURL = 'https://ieee.bilkent.edu.tr/ieeebackend/api/index.php';
+    let BaseURL = 'http://localhost:8000/ieeebackend/api/index.php';
     return new Promise((resolve, reject) => {
         fetch(BaseURL + '?tp=' + type, {
                 method: 'POST',
@@ -19,7 +19,7 @@ export function PostData(type) {
 }
 
 export function PostDataId(type, userData) {
-    let BaseURL = 'https://ieee.bilkent.edu.tr/ieeebackend/api/index.php';
+    let BaseURL = 'http://localhost:8000/ieeebackend/api/index.php';
     return new Promise((resolve, reject) => {
         fetch(BaseURL + '?tp=' + type, {
                 method: 'POST',
@@ -40,7 +40,7 @@ export function PostDataId(type, userData) {
 }
 
 export function PostDataPhotos(type, ids) {
-    let BaseURL = 'https://ieee.bilkent.edu.tr/ieeebackend/api/index.php';
+    let BaseURL = 'http://localhost:8000/ieeebackend/api/index.php';
     return new Promise((resolve, reject) => {
         fetch(BaseURL + '?tp=' + type, {
                 method: 'POST',

@@ -24,7 +24,6 @@ class Activities extends Component {
             </div>
         );
     }
-
 }
 
 export default Activities;

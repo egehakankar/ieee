@@ -6,6 +6,7 @@ import AboutUs from "./Components/AboutUs.js"
 import Team from "./Components/Team.js"
 import Social from "./Components/Social.js"
 import Technical from "./Components/Technical.js"
+import Blog from "./Components/Blog.js"
 import TechEvent from "./Components/TechEvent.js"
 import SocialEvent from "./Components/SocialEvent.js"
 import './App.css';
@@ -38,6 +39,7 @@ class App extends Component {
             <Route exact path="/team"><Team /></Route>
             <Route exact path="/social"><Social /></Route>
             <Route exact path="/technical"><Technical /></Route>
+            <Route exact path="/blog"><Blog /></Route>
             <Route exact path="/technical/:eventTitle" component={TechEvent}></Route>
             <Route exact path="/social/:eventTitle" component={SocialEvent}></Route>
           </div>
